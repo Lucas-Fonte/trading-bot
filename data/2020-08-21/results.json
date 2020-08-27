@@ -1,0 +1,2354 @@
+[
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 10,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100970,
+            "value": "−685",
+            "percentage": "(−0.67%)",
+            "timestamp": "8/21/2020, 11:25:08 AM"
+        },
+        "currentOrder": {
+            "id": 1,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101115,
+            "value": "−540",
+            "percentage": "(−0.53%)",
+            "timestamp": "8/21/2020, 11:20:09 AM",
+            "action": "SELLING",
+            "positiveGain": 101215,
+            "negativeGain": 101015,
+            "positiveLoss": 101215,
+            "negativeLoss": 101015
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 11,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101145,
+            "value": "−510",
+            "percentage": "(−0.50%)",
+            "timestamp": "8/21/2020, 11:26:08 AM"
+        },
+        "currentOrder": {
+            "id": 2,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101045,
+            "value": "−610",
+            "percentage": "(−0.60%)",
+            "timestamp": "8/21/2020, 11:21:10 AM",
+            "action": "SELLING",
+            "positiveGain": 101145,
+            "negativeGain": 100945,
+            "positiveLoss": 101145,
+            "negativeLoss": 100945
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 11,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101145,
+            "value": "−510",
+            "percentage": "(−0.50%)",
+            "timestamp": "8/21/2020, 11:26:08 AM"
+        },
+        "currentOrder": {
+            "id": 3,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101020,
+            "value": "−635",
+            "percentage": "(−0.62%)",
+            "timestamp": "8/21/2020, 11:24:09 AM",
+            "action": "SELLING",
+            "positiveGain": 101120,
+            "negativeGain": 100920,
+            "positiveLoss": 101120,
+            "negativeLoss": 100920
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 11,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101145,
+            "value": "−510",
+            "percentage": "(−0.50%)",
+            "timestamp": "8/21/2020, 11:26:08 AM"
+        },
+        "currentOrder": {
+            "id": 4,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100970,
+            "value": "−685",
+            "percentage": "(−0.67%)",
+            "timestamp": "8/21/2020, 11:25:08 AM",
+            "action": "SELLING",
+            "positiveGain": 101070,
+            "negativeGain": 100870,
+            "positiveLoss": 101070,
+            "negativeLoss": 100870
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 13,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101140,
+            "value": "−515",
+            "percentage": "(−0.51%)",
+            "timestamp": "8/21/2020, 11:28:08 AM"
+        },
+        "currentOrder": {
+            "id": 5,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101005,
+            "value": "−650",
+            "percentage": "(−0.64%)",
+            "timestamp": "8/21/2020, 11:27:08 AM",
+            "action": "SELLING",
+            "positiveGain": 101105,
+            "negativeGain": 100905,
+            "positiveLoss": 101105,
+            "negativeLoss": 100905
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 16,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101225,
+            "value": "−430",
+            "percentage": "(−0.42%)",
+            "timestamp": "8/21/2020, 11:31:08 AM"
+        },
+        "currentOrder": {
+            "id": 6,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101105,
+            "value": "−550",
+            "percentage": "(−0.54%)",
+            "timestamp": "8/21/2020, 11:29:09 AM",
+            "action": "SELLING",
+            "positiveGain": 101205,
+            "negativeGain": 101005,
+            "positiveLoss": 101205,
+            "negativeLoss": 101005
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 16,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101225,
+            "value": "−430",
+            "percentage": "(−0.42%)",
+            "timestamp": "8/21/2020, 11:31:08 AM"
+        },
+        "currentOrder": {
+            "id": 7,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101080,
+            "value": "−575",
+            "percentage": "(−0.57%)",
+            "timestamp": "8/21/2020, 11:30:09 AM",
+            "action": "SELLING",
+            "positiveGain": 101180,
+            "negativeGain": 100980,
+            "positiveLoss": 101180,
+            "negativeLoss": 100980
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 31,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101110,
+            "value": "−545",
+            "percentage": "(−0.54%)",
+            "timestamp": "8/21/2020, 11:47:08 AM"
+        },
+        "currentOrder": {
+            "id": 8,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101220,
+            "value": "−435",
+            "percentage": "(−0.43%)",
+            "timestamp": "8/21/2020, 11:33:09 AM",
+            "action": "SELLING",
+            "positiveGain": 101320,
+            "negativeGain": 101120,
+            "positiveLoss": 101320,
+            "negativeLoss": 101120
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 37,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101335,
+            "value": "−320",
+            "percentage": "(−0.31%)",
+            "timestamp": "8/21/2020, 11:53:08 AM"
+        },
+        "currentOrder": {
+            "id": 9,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101205,
+            "value": "−450",
+            "percentage": "(−0.44%)",
+            "timestamp": "8/21/2020, 11:35:10 AM",
+            "action": "SELLING",
+            "positiveGain": 101305,
+            "negativeGain": 101105,
+            "positiveLoss": 101305,
+            "negativeLoss": 101105
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 31,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101110,
+            "value": "−545",
+            "percentage": "(−0.54%)",
+            "timestamp": "8/21/2020, 11:47:08 AM"
+        },
+        "currentOrder": {
+            "id": 10,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101210,
+            "value": "−445",
+            "percentage": "(−0.44%)",
+            "timestamp": "8/21/2020, 11:38:08 AM",
+            "action": "SELLING",
+            "positiveGain": 101310,
+            "negativeGain": 101110,
+            "positiveLoss": 101310,
+            "negativeLoss": 101110
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 26,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101275,
+            "value": "−380",
+            "percentage": "(−0.37%)",
+            "timestamp": "8/21/2020, 11:41:07 AM"
+        },
+        "currentOrder": {
+            "id": 11,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101160,
+            "value": "−495",
+            "percentage": "(−0.49%)",
+            "timestamp": "8/21/2020, 11:39:08 AM",
+            "action": "SELLING",
+            "positiveGain": 101260,
+            "negativeGain": 101060,
+            "positiveLoss": 101260,
+            "negativeLoss": 101060
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 26,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101275,
+            "value": "−380",
+            "percentage": "(−0.37%)",
+            "timestamp": "8/21/2020, 11:41:07 AM"
+        },
+        "currentOrder": {
+            "id": 12,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101140,
+            "value": "−515",
+            "percentage": "(−0.51%)",
+            "timestamp": "8/21/2020, 11:40:10 AM",
+            "action": "SELLING",
+            "positiveGain": 101240,
+            "negativeGain": 101040,
+            "positiveLoss": 101240,
+            "negativeLoss": 101040
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 31,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101110,
+            "value": "−545",
+            "percentage": "(−0.54%)",
+            "timestamp": "8/21/2020, 11:47:08 AM"
+        },
+        "currentOrder": {
+            "id": 13,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101250,
+            "value": "−405",
+            "percentage": "(−0.40%)",
+            "timestamp": "8/21/2020, 11:42:09 AM",
+            "action": "SELLING",
+            "positiveGain": 101350,
+            "negativeGain": 101150,
+            "positiveLoss": 101350,
+            "negativeLoss": 101150
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 35,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101260,
+            "value": "−395",
+            "percentage": "(−0.39%)",
+            "timestamp": "8/21/2020, 11:51:09 AM"
+        },
+        "currentOrder": {
+            "id": 14,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101150,
+            "value": "−505",
+            "percentage": "(−0.50%)",
+            "timestamp": "8/21/2020, 11:50:08 AM",
+            "action": "SELLING",
+            "positiveGain": 101250,
+            "negativeGain": 101050,
+            "positiveLoss": 101250,
+            "negativeLoss": 101050
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 38,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101370,
+            "value": "−285",
+            "percentage": "(−0.28%)",
+            "timestamp": "8/21/2020, 11:54:09 AM"
+        },
+        "currentOrder": {
+            "id": 15,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101260,
+            "value": "−395",
+            "percentage": "(−0.39%)",
+            "timestamp": "8/21/2020, 11:51:09 AM",
+            "action": "BUYING",
+            "positiveGain": 101360,
+            "negativeGain": 101160,
+            "positiveLoss": 101360,
+            "negativeLoss": 101160
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 40,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101400,
+            "value": "−255",
+            "percentage": "(−0.25%)",
+            "timestamp": "8/21/2020, 11:56:09 AM"
+        },
+        "currentOrder": {
+            "id": 16,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101295,
+            "value": "−360",
+            "percentage": "(−0.35%)",
+            "timestamp": "8/21/2020, 11:52:09 AM",
+            "action": "BUYING",
+            "positiveGain": 101395,
+            "negativeGain": 101195,
+            "positiveLoss": 101395,
+            "negativeLoss": 101195
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 43,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101455,
+            "value": "−200",
+            "percentage": "(−0.20%)",
+            "timestamp": "8/21/2020, 11:59:09 AM"
+        },
+        "currentOrder": {
+            "id": 17,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101335,
+            "value": "−320",
+            "percentage": "(−0.31%)",
+            "timestamp": "8/21/2020, 11:53:08 AM",
+            "action": "BUYING",
+            "positiveGain": 101435,
+            "negativeGain": 101235,
+            "positiveLoss": 101435,
+            "negativeLoss": 101235
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 44,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101475,
+            "value": "−180",
+            "percentage": "(−0.18%)",
+            "timestamp": "8/21/2020, 12:00:08 PM"
+        },
+        "currentOrder": {
+            "id": 18,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101370,
+            "value": "−285",
+            "percentage": "(−0.28%)",
+            "timestamp": "8/21/2020, 11:54:09 AM",
+            "action": "BUYING",
+            "positiveGain": 101470,
+            "negativeGain": 101270,
+            "positiveLoss": 101470,
+            "negativeLoss": 101270
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 47,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101495,
+            "value": "−160",
+            "percentage": "(−0.16%)",
+            "timestamp": "8/21/2020, 12:03:10 PM"
+        },
+        "currentOrder": {
+            "id": 19,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101380,
+            "value": "−275",
+            "percentage": "(−0.27%)",
+            "timestamp": "8/21/2020, 11:55:09 AM",
+            "action": "BUYING",
+            "positiveGain": 101480,
+            "negativeGain": 101280,
+            "positiveLoss": 101480,
+            "negativeLoss": 101280
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 48,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101500,
+            "value": "−155",
+            "percentage": "(−0.15%)",
+            "timestamp": "8/21/2020, 12:04:09 PM"
+        },
+        "currentOrder": {
+            "id": 20,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101400,
+            "value": "−255",
+            "percentage": "(−0.25%)",
+            "timestamp": "8/21/2020, 11:56:09 AM",
+            "action": "BUYING",
+            "positiveGain": 101500,
+            "negativeGain": 101300,
+            "positiveLoss": 101500,
+            "negativeLoss": 101300
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 49,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101540,
+            "value": "−115",
+            "percentage": "(−0.11%)",
+            "timestamp": "8/21/2020, 12:05:08 PM"
+        },
+        "currentOrder": {
+            "id": 21,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101410,
+            "value": "−245",
+            "percentage": "(−0.24%)",
+            "timestamp": "8/21/2020, 11:57:09 AM",
+            "action": "BUYING",
+            "positiveGain": 101510,
+            "negativeGain": 101310,
+            "positiveLoss": 101510,
+            "negativeLoss": 101310
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 50,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101610,
+            "value": "−45",
+            "percentage": "(−0.04%)",
+            "timestamp": "8/21/2020, 12:06:08 PM"
+        },
+        "currentOrder": {
+            "id": 22,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101455,
+            "value": "−200",
+            "percentage": "(−0.20%)",
+            "timestamp": "8/21/2020, 11:59:09 AM",
+            "action": "BUYING",
+            "positiveGain": 101555,
+            "negativeGain": 101355,
+            "positiveLoss": 101555,
+            "negativeLoss": 101355
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 50,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101610,
+            "value": "−45",
+            "percentage": "(−0.04%)",
+            "timestamp": "8/21/2020, 12:06:08 PM"
+        },
+        "currentOrder": {
+            "id": 23,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101475,
+            "value": "−180",
+            "percentage": "(−0.18%)",
+            "timestamp": "8/21/2020, 12:00:08 PM",
+            "action": "BUYING",
+            "positiveGain": 101575,
+            "negativeGain": 101375,
+            "positiveLoss": 101575,
+            "negativeLoss": 101375
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 50,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101610,
+            "value": "−45",
+            "percentage": "(−0.04%)",
+            "timestamp": "8/21/2020, 12:06:08 PM"
+        },
+        "currentOrder": {
+            "id": 24,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101475,
+            "value": "−180",
+            "percentage": "(−0.18%)",
+            "timestamp": "8/21/2020, 12:02:10 PM",
+            "action": "BUYING",
+            "positiveGain": 101575,
+            "negativeGain": 101375,
+            "positiveLoss": 101575,
+            "negativeLoss": 101375
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 50,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101610,
+            "value": "−45",
+            "percentage": "(−0.04%)",
+            "timestamp": "8/21/2020, 12:06:08 PM"
+        },
+        "currentOrder": {
+            "id": 25,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101495,
+            "value": "−160",
+            "percentage": "(−0.16%)",
+            "timestamp": "8/21/2020, 12:03:10 PM",
+            "action": "BUYING",
+            "positiveGain": 101595,
+            "negativeGain": 101395,
+            "positiveLoss": 101595,
+            "negativeLoss": 101395
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 50,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101610,
+            "value": "−45",
+            "percentage": "(−0.04%)",
+            "timestamp": "8/21/2020, 12:06:08 PM"
+        },
+        "currentOrder": {
+            "id": 26,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101500,
+            "value": "−155",
+            "percentage": "(−0.15%)",
+            "timestamp": "8/21/2020, 12:04:09 PM",
+            "action": "BUYING",
+            "positiveGain": 101600,
+            "negativeGain": 101400,
+            "positiveLoss": 101600,
+            "negativeLoss": 101400
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 52,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101640,
+            "value": "−15",
+            "percentage": "(−0.01%)",
+            "timestamp": "8/21/2020, 12:08:10 PM"
+        },
+        "currentOrder": {
+            "id": 27,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101540,
+            "value": "−115",
+            "percentage": "(−0.11%)",
+            "timestamp": "8/21/2020, 12:05:08 PM",
+            "action": "BUYING",
+            "positiveGain": 101640,
+            "negativeGain": 101440,
+            "positiveLoss": 101640,
+            "negativeLoss": 101440
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 54,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101735,
+            "value": "+80",
+            "percentage": "(+0.08%)",
+            "timestamp": "8/21/2020, 12:10:09 PM"
+        },
+        "currentOrder": {
+            "id": 28,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101610,
+            "value": "−45",
+            "percentage": "(−0.04%)",
+            "timestamp": "8/21/2020, 12:06:08 PM",
+            "action": "BUYING",
+            "positiveGain": 101710,
+            "negativeGain": 101510,
+            "positiveLoss": 101710,
+            "negativeLoss": 101510
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 54,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101735,
+            "value": "+80",
+            "percentage": "(+0.08%)",
+            "timestamp": "8/21/2020, 12:10:09 PM"
+        },
+        "currentOrder": {
+            "id": 29,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101615,
+            "value": "−40",
+            "percentage": "(−0.04%)",
+            "timestamp": "8/21/2020, 12:07:10 PM",
+            "action": "BUYING",
+            "positiveGain": 101715,
+            "negativeGain": 101515,
+            "positiveLoss": 101715,
+            "negativeLoss": 101515
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 55,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101775,
+            "value": "+120",
+            "percentage": "(+0.12%)",
+            "timestamp": "8/21/2020, 12:11:12 PM"
+        },
+        "currentOrder": {
+            "id": 30,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101640,
+            "value": "−15",
+            "percentage": "(−0.01%)",
+            "timestamp": "8/21/2020, 12:08:10 PM",
+            "action": "BUYING",
+            "positiveGain": 101740,
+            "negativeGain": 101540,
+            "positiveLoss": 101740,
+            "negativeLoss": 101540
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 55,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101775,
+            "value": "+120",
+            "percentage": "(+0.12%)",
+            "timestamp": "8/21/2020, 12:11:12 PM"
+        },
+        "currentOrder": {
+            "id": 31,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101650,
+            "value": "−5",
+            "percentage": "(0.00%)",
+            "timestamp": "8/21/2020, 12:09:12 PM",
+            "action": "BUYING",
+            "positiveGain": 101750,
+            "negativeGain": 101550,
+            "positiveLoss": 101750,
+            "negativeLoss": 101550
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 58,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101595,
+            "value": "−60",
+            "percentage": "(−0.06%)",
+            "timestamp": "8/21/2020, 12:14:12 PM"
+        },
+        "currentOrder": {
+            "id": 32,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101735,
+            "value": "+80",
+            "percentage": "(+0.08%)",
+            "timestamp": "8/21/2020, 12:10:09 PM",
+            "action": "BUYING",
+            "positiveGain": 101835,
+            "negativeGain": 101635,
+            "positiveLoss": 101835,
+            "negativeLoss": 101635
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 57,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101645,
+            "value": "−10",
+            "percentage": "(−0.01%)",
+            "timestamp": "8/21/2020, 12:13:09 PM"
+        },
+        "currentOrder": {
+            "id": 33,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101775,
+            "value": "+120",
+            "percentage": "(+0.12%)",
+            "timestamp": "8/21/2020, 12:11:12 PM",
+            "action": "BUYING",
+            "positiveGain": 101875,
+            "negativeGain": 101675,
+            "positiveLoss": 101875,
+            "negativeLoss": 101675
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 61,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101545,
+            "value": "−110",
+            "percentage": "(−0.11%)",
+            "timestamp": "8/21/2020, 12:17:10 PM"
+        },
+        "currentOrder": {
+            "id": 34,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101660,
+            "value": "+5",
+            "percentage": "(0.00%)",
+            "timestamp": "8/21/2020, 12:15:09 PM",
+            "action": "BUYING",
+            "positiveGain": 101760,
+            "negativeGain": 101560,
+            "positiveLoss": 101760,
+            "negativeLoss": 101560
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 71,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101365,
+            "value": "−290",
+            "percentage": "(−0.29%)",
+            "timestamp": "8/21/2020, 12:27:08 PM"
+        },
+        "currentOrder": {
+            "id": 35,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101480,
+            "value": "−175",
+            "percentage": "(−0.17%)",
+            "timestamp": "8/21/2020, 12:20:10 PM",
+            "action": "BUYING",
+            "positiveGain": 101580,
+            "negativeGain": 101380,
+            "positiveLoss": 101580,
+            "negativeLoss": 101380
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 72,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101245,
+            "value": "−410",
+            "percentage": "(−0.40%)",
+            "timestamp": "8/21/2020, 12:28:09 PM"
+        },
+        "currentOrder": {
+            "id": 36,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101430,
+            "value": "−225",
+            "percentage": "(−0.22%)",
+            "timestamp": "8/21/2020, 12:22:08 PM",
+            "action": "BUYING",
+            "positiveGain": 101530,
+            "negativeGain": 101330,
+            "positiveLoss": 101530,
+            "negativeLoss": 101330
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 71,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101365,
+            "value": "−290",
+            "percentage": "(−0.29%)",
+            "timestamp": "8/21/2020, 12:27:08 PM"
+        },
+        "currentOrder": {
+            "id": 37,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101495,
+            "value": "−160",
+            "percentage": "(−0.16%)",
+            "timestamp": "8/21/2020, 12:23:09 PM",
+            "action": "BUYING",
+            "positiveGain": 101595,
+            "negativeGain": 101395,
+            "positiveLoss": 101595,
+            "negativeLoss": 101395
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 71,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101365,
+            "value": "−290",
+            "percentage": "(−0.29%)",
+            "timestamp": "8/21/2020, 12:27:08 PM"
+        },
+        "currentOrder": {
+            "id": 38,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101480,
+            "value": "−175",
+            "percentage": "(−0.17%)",
+            "timestamp": "8/21/2020, 12:25:09 PM",
+            "action": "BUYING",
+            "positiveGain": 101580,
+            "negativeGain": 101380,
+            "positiveLoss": 101580,
+            "negativeLoss": 101380
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 77,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101030,
+            "value": "−625",
+            "percentage": "(−0.61%)",
+            "timestamp": "8/21/2020, 12:33:14 PM"
+        },
+        "currentOrder": {
+            "id": 39,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101130,
+            "value": "−525",
+            "percentage": "(−0.52%)",
+            "timestamp": "8/21/2020, 12:29:09 PM",
+            "action": "SELLING",
+            "positiveGain": 101230,
+            "negativeGain": 101030,
+            "positiveLoss": 101230,
+            "negativeLoss": 101030
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 81,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101305,
+            "value": "−350",
+            "percentage": "(−0.34%)",
+            "timestamp": "8/21/2020, 12:38:08 PM"
+        },
+        "currentOrder": {
+            "id": 40,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101120,
+            "value": "−535",
+            "percentage": "(−0.53%)",
+            "timestamp": "8/21/2020, 12:30:09 PM",
+            "action": "SELLING",
+            "positiveGain": 101220,
+            "negativeGain": 101020,
+            "positiveLoss": 101220,
+            "negativeLoss": 101020
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 81,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101305,
+            "value": "−350",
+            "percentage": "(−0.34%)",
+            "timestamp": "8/21/2020, 12:38:08 PM"
+        },
+        "currentOrder": {
+            "id": 41,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101120,
+            "value": "−535",
+            "percentage": "(−0.53%)",
+            "timestamp": "8/21/2020, 12:32:08 PM",
+            "action": "SELLING",
+            "positiveGain": 101220,
+            "negativeGain": 101020,
+            "positiveLoss": 101220,
+            "negativeLoss": 101020
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 79,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101135,
+            "value": "−520",
+            "percentage": "(−0.51%)",
+            "timestamp": "8/21/2020, 12:36:10 PM"
+        },
+        "currentOrder": {
+            "id": 42,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101030,
+            "value": "−625",
+            "percentage": "(−0.61%)",
+            "timestamp": "8/21/2020, 12:33:14 PM",
+            "action": "SELLING",
+            "positiveGain": 101130,
+            "negativeGain": 100930,
+            "positiveLoss": 101130,
+            "negativeLoss": 100930
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 85,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101205,
+            "value": "−450",
+            "percentage": "(−0.44%)",
+            "timestamp": "8/21/2020, 12:42:09 PM"
+        },
+        "currentOrder": {
+            "id": 43,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101305,
+            "value": "−350",
+            "percentage": "(−0.34%)",
+            "timestamp": "8/21/2020, 12:38:08 PM",
+            "action": "BUYING",
+            "positiveGain": 101405,
+            "negativeGain": 101205,
+            "positiveLoss": 101405,
+            "negativeLoss": 101205
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 92,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101100,
+            "value": "−555",
+            "percentage": "(−0.55%)",
+            "timestamp": "8/21/2020, 1:16:08 PM"
+        },
+        "currentOrder": {
+            "id": 44,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101230,
+            "value": "−425",
+            "percentage": "(−0.42%)",
+            "timestamp": "8/21/2020, 12:40:09 PM",
+            "action": "SELLING",
+            "positiveGain": 101330,
+            "negativeGain": 101130,
+            "positiveLoss": 101330,
+            "negativeLoss": 101130
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 92,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101100,
+            "value": "−555",
+            "percentage": "(−0.55%)",
+            "timestamp": "8/21/2020, 1:16:08 PM"
+        },
+        "currentOrder": {
+            "id": 45,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101235,
+            "value": "−420",
+            "percentage": "(−0.41%)",
+            "timestamp": "8/21/2020, 12:41:09 PM",
+            "action": "BUYING",
+            "positiveGain": 101335,
+            "negativeGain": 101135,
+            "positiveLoss": 101335,
+            "negativeLoss": 101135
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 92,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101100,
+            "value": "−555",
+            "percentage": "(−0.55%)",
+            "timestamp": "8/21/2020, 1:16:08 PM"
+        },
+        "currentOrder": {
+            "id": 46,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101205,
+            "value": "−450",
+            "percentage": "(−0.44%)",
+            "timestamp": "8/21/2020, 12:42:09 PM",
+            "action": "SELLING",
+            "positiveGain": 101305,
+            "negativeGain": 101105,
+            "positiveLoss": 101305,
+            "negativeLoss": 101105
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 92,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101100,
+            "value": "−555",
+            "percentage": "(−0.55%)",
+            "timestamp": "8/21/2020, 1:16:08 PM"
+        },
+        "currentOrder": {
+            "id": 47,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101235,
+            "value": "−420",
+            "percentage": "(−0.41%)",
+            "timestamp": "8/21/2020, 12:43:08 PM",
+            "action": "BUYING",
+            "positiveGain": 101335,
+            "negativeGain": 101135,
+            "positiveLoss": 101335,
+            "negativeLoss": 101135
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 91,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101155,
+            "value": "−500",
+            "percentage": "(−0.49%)",
+            "timestamp": "8/21/2020, 1:15:09 PM"
+        },
+        "currentOrder": {
+            "id": 48,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101300,
+            "value": "−355",
+            "percentage": "(−0.35%)",
+            "timestamp": "8/21/2020, 12:44:13 PM",
+            "action": "BUYING",
+            "positiveGain": 101400,
+            "negativeGain": 101200,
+            "positiveLoss": 101400,
+            "negativeLoss": 101200
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 91,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101155,
+            "value": "−500",
+            "percentage": "(−0.49%)",
+            "timestamp": "8/21/2020, 1:15:09 PM"
+        },
+        "currentOrder": {
+            "id": 49,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101265,
+            "value": "−390",
+            "percentage": "(−0.38%)",
+            "timestamp": "8/21/2020, 12:46:08 PM",
+            "action": "BUYING",
+            "positiveGain": 101365,
+            "negativeGain": 101165,
+            "positiveLoss": 101365,
+            "negativeLoss": 101165
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 100,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101260,
+            "value": "−395",
+            "percentage": "(−0.39%)",
+            "timestamp": "8/21/2020, 1:24:09 PM"
+        },
+        "currentOrder": {
+            "id": 50,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101155,
+            "value": "−500",
+            "percentage": "(−0.49%)",
+            "timestamp": "8/21/2020, 1:15:09 PM",
+            "action": "SELLING",
+            "positiveGain": 101255,
+            "negativeGain": 101055,
+            "positiveLoss": 101255,
+            "negativeLoss": 101055
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 97,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101205,
+            "value": "−450",
+            "percentage": "(−0.44%)",
+            "timestamp": "8/21/2020, 1:21:14 PM"
+        },
+        "currentOrder": {
+            "id": 51,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101100,
+            "value": "−555",
+            "percentage": "(−0.55%)",
+            "timestamp": "8/21/2020, 1:16:08 PM",
+            "action": "SELLING",
+            "positiveGain": 101200,
+            "negativeGain": 101000,
+            "positiveLoss": 101200,
+            "negativeLoss": 101000
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 100,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101260,
+            "value": "−395",
+            "percentage": "(−0.39%)",
+            "timestamp": "8/21/2020, 1:24:09 PM"
+        },
+        "currentOrder": {
+            "id": 52,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101140,
+            "value": "−515",
+            "percentage": "(−0.51%)",
+            "timestamp": "8/21/2020, 1:18:09 PM",
+            "action": "SELLING",
+            "positiveGain": 101240,
+            "negativeGain": 101040,
+            "positiveLoss": 101240,
+            "negativeLoss": 101040
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 125,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101145,
+            "value": "−510",
+            "percentage": "(−0.50%)",
+            "timestamp": "8/21/2020, 1:49:13 PM"
+        },
+        "currentOrder": {
+            "id": 53,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101260,
+            "value": "−395",
+            "percentage": "(−0.39%)",
+            "timestamp": "8/21/2020, 1:24:09 PM",
+            "action": "BUYING",
+            "positiveGain": 101360,
+            "negativeGain": 101160,
+            "positiveLoss": 101360,
+            "negativeLoss": 101160
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 104,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101190,
+            "value": "−465",
+            "percentage": "(−0.46%)",
+            "timestamp": "8/21/2020, 1:28:08 PM"
+        },
+        "currentOrder": {
+            "id": 54,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101290,
+            "value": "−365",
+            "percentage": "(−0.36%)",
+            "timestamp": "8/21/2020, 1:26:10 PM",
+            "action": "BUYING",
+            "positiveGain": 101390,
+            "negativeGain": 101190,
+            "positiveLoss": 101390,
+            "negativeLoss": 101190
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 119,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101330,
+            "value": "−325",
+            "percentage": "(−0.32%)",
+            "timestamp": "8/21/2020, 1:43:09 PM"
+        },
+        "currentOrder": {
+            "id": 55,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101195,
+            "value": "−460",
+            "percentage": "(−0.45%)",
+            "timestamp": "8/21/2020, 1:27:09 PM",
+            "action": "SELLING",
+            "positiveGain": 101295,
+            "negativeGain": 101095,
+            "positiveLoss": 101295,
+            "negativeLoss": 101095
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 114,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101290,
+            "value": "−365",
+            "percentage": "(−0.36%)",
+            "timestamp": "8/21/2020, 1:38:10 PM"
+        },
+        "currentOrder": {
+            "id": 56,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101190,
+            "value": "−465",
+            "percentage": "(−0.46%)",
+            "timestamp": "8/21/2020, 1:28:08 PM",
+            "action": "SELLING",
+            "positiveGain": 101290,
+            "negativeGain": 101090,
+            "positiveLoss": 101290,
+            "negativeLoss": 101090
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 119,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101330,
+            "value": "−325",
+            "percentage": "(−0.32%)",
+            "timestamp": "8/21/2020, 1:43:09 PM"
+        },
+        "currentOrder": {
+            "id": 57,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101195,
+            "value": "−460",
+            "percentage": "(−0.45%)",
+            "timestamp": "8/21/2020, 1:32:08 PM",
+            "action": "SELLING",
+            "positiveGain": 101295,
+            "negativeGain": 101095,
+            "positiveLoss": 101295,
+            "negativeLoss": 101095
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 125,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101145,
+            "value": "−510",
+            "percentage": "(−0.50%)",
+            "timestamp": "8/21/2020, 1:49:13 PM"
+        },
+        "currentOrder": {
+            "id": 58,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101260,
+            "value": "−395",
+            "percentage": "(−0.39%)",
+            "timestamp": "8/21/2020, 1:34:09 PM",
+            "action": "BUYING",
+            "positiveGain": 101360,
+            "negativeGain": 101160,
+            "positiveLoss": 101360,
+            "negativeLoss": 101160
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 125,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101145,
+            "value": "−510",
+            "percentage": "(−0.50%)",
+            "timestamp": "8/21/2020, 1:49:13 PM"
+        },
+        "currentOrder": {
+            "id": 59,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101270,
+            "value": "−385",
+            "percentage": "(−0.38%)",
+            "timestamp": "8/21/2020, 1:35:08 PM",
+            "action": "BUYING",
+            "positiveGain": 101370,
+            "negativeGain": 101170,
+            "positiveLoss": 101370,
+            "negativeLoss": 101170
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 125,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101145,
+            "value": "−510",
+            "percentage": "(−0.50%)",
+            "timestamp": "8/21/2020, 1:49:13 PM"
+        },
+        "currentOrder": {
+            "id": 60,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101260,
+            "value": "−395",
+            "percentage": "(−0.39%)",
+            "timestamp": "8/21/2020, 1:37:09 PM",
+            "action": "BUYING",
+            "positiveGain": 101360,
+            "negativeGain": 101160,
+            "positiveLoss": 101360,
+            "negativeLoss": 101160
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 125,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101145,
+            "value": "−510",
+            "percentage": "(−0.50%)",
+            "timestamp": "8/21/2020, 1:49:13 PM"
+        },
+        "currentOrder": {
+            "id": 61,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101290,
+            "value": "−365",
+            "percentage": "(−0.36%)",
+            "timestamp": "8/21/2020, 1:38:10 PM",
+            "action": "BUYING",
+            "positiveGain": 101390,
+            "negativeGain": 101190,
+            "positiveLoss": 101390,
+            "negativeLoss": 101190
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 125,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101145,
+            "value": "−510",
+            "percentage": "(−0.50%)",
+            "timestamp": "8/21/2020, 1:49:13 PM"
+        },
+        "currentOrder": {
+            "id": 62,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101245,
+            "value": "−410",
+            "percentage": "(−0.40%)",
+            "timestamp": "8/21/2020, 1:39:10 PM",
+            "action": "SELLING",
+            "positiveGain": 101345,
+            "negativeGain": 101145,
+            "positiveLoss": 101345,
+            "negativeLoss": 101145
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 125,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101145,
+            "value": "−510",
+            "percentage": "(−0.50%)",
+            "timestamp": "8/21/2020, 1:49:13 PM"
+        },
+        "currentOrder": {
+            "id": 63,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101285,
+            "value": "−370",
+            "percentage": "(−0.36%)",
+            "timestamp": "8/21/2020, 1:40:11 PM",
+            "action": "BUYING",
+            "positiveGain": 101385,
+            "negativeGain": 101185,
+            "positiveLoss": 101385,
+            "negativeLoss": 101185
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 125,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101145,
+            "value": "−510",
+            "percentage": "(−0.50%)",
+            "timestamp": "8/21/2020, 1:49:13 PM"
+        },
+        "currentOrder": {
+            "id": 64,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101290,
+            "value": "−365",
+            "percentage": "(−0.36%)",
+            "timestamp": "8/21/2020, 1:42:09 PM",
+            "action": "BUYING",
+            "positiveGain": 101390,
+            "negativeGain": 101190,
+            "positiveLoss": 101390,
+            "negativeLoss": 101190
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 124,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101210,
+            "value": "−445",
+            "percentage": "(−0.44%)",
+            "timestamp": "8/21/2020, 1:48:10 PM"
+        },
+        "currentOrder": {
+            "id": 65,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101330,
+            "value": "−325",
+            "percentage": "(−0.32%)",
+            "timestamp": "8/21/2020, 1:43:09 PM",
+            "action": "BUYING",
+            "positiveGain": 101430,
+            "negativeGain": 101230,
+            "positiveLoss": 101430,
+            "negativeLoss": 101230
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 123,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101240,
+            "value": "−415",
+            "percentage": "(−0.41%)",
+            "timestamp": "8/21/2020, 1:47:09 PM"
+        },
+        "currentOrder": {
+            "id": 66,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101340,
+            "value": "−315",
+            "percentage": "(−0.31%)",
+            "timestamp": "8/21/2020, 1:44:09 PM",
+            "action": "BUYING",
+            "positiveGain": 101440,
+            "negativeGain": 101240,
+            "positiveLoss": 101440,
+            "negativeLoss": 101240
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 126,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101035,
+            "value": "−620",
+            "percentage": "(−0.61%)",
+            "timestamp": "8/21/2020, 1:50:09 PM"
+        },
+        "currentOrder": {
+            "id": 67,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101240,
+            "value": "−415",
+            "percentage": "(−0.41%)",
+            "timestamp": "8/21/2020, 1:47:09 PM",
+            "action": "SELLING",
+            "positiveGain": 101340,
+            "negativeGain": 101140,
+            "positiveLoss": 101340,
+            "negativeLoss": 101140
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 126,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101035,
+            "value": "−620",
+            "percentage": "(−0.61%)",
+            "timestamp": "8/21/2020, 1:50:09 PM"
+        },
+        "currentOrder": {
+            "id": 68,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101210,
+            "value": "−445",
+            "percentage": "(−0.44%)",
+            "timestamp": "8/21/2020, 1:48:10 PM",
+            "action": "SELLING",
+            "positiveGain": 101310,
+            "negativeGain": 101110,
+            "positiveLoss": 101310,
+            "negativeLoss": 101110
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 126,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101035,
+            "value": "−620",
+            "percentage": "(−0.61%)",
+            "timestamp": "8/21/2020, 1:50:09 PM"
+        },
+        "currentOrder": {
+            "id": 69,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101145,
+            "value": "−510",
+            "percentage": "(−0.50%)",
+            "timestamp": "8/21/2020, 1:49:13 PM",
+            "action": "SELLING",
+            "positiveGain": 101245,
+            "negativeGain": 101045,
+            "positiveLoss": 101245,
+            "negativeLoss": 101045
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 151,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100880,
+            "value": "−775",
+            "percentage": "(−0.76%)",
+            "timestamp": "8/21/2020, 2:15:10 PM"
+        },
+        "currentOrder": {
+            "id": 70,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101035,
+            "value": "−620",
+            "percentage": "(−0.61%)",
+            "timestamp": "8/21/2020, 1:50:09 PM",
+            "action": "SELLING",
+            "positiveGain": 101135,
+            "negativeGain": 100935,
+            "positiveLoss": 101135,
+            "negativeLoss": 100935
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 151,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100880,
+            "value": "−775",
+            "percentage": "(−0.76%)",
+            "timestamp": "8/21/2020, 2:15:10 PM"
+        },
+        "currentOrder": {
+            "id": 71,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101095,
+            "value": "−560",
+            "percentage": "(−0.55%)",
+            "timestamp": "8/21/2020, 1:54:12 PM",
+            "action": "SELLING",
+            "positiveGain": 101195,
+            "negativeGain": 100995,
+            "positiveLoss": 101195,
+            "negativeLoss": 100995
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 151,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100880,
+            "value": "−775",
+            "percentage": "(−0.76%)",
+            "timestamp": "8/21/2020, 2:15:10 PM"
+        },
+        "currentOrder": {
+            "id": 72,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101080,
+            "value": "−575",
+            "percentage": "(−0.57%)",
+            "timestamp": "8/21/2020, 1:55:09 PM",
+            "action": "SELLING",
+            "positiveGain": 101180,
+            "negativeGain": 100980,
+            "positiveLoss": 101180,
+            "negativeLoss": 100980
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 151,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100880,
+            "value": "−775",
+            "percentage": "(−0.76%)",
+            "timestamp": "8/21/2020, 2:15:10 PM"
+        },
+        "currentOrder": {
+            "id": 73,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101070,
+            "value": "−585",
+            "percentage": "(−0.58%)",
+            "timestamp": "8/21/2020, 1:56:09 PM",
+            "action": "SELLING",
+            "positiveGain": 101170,
+            "negativeGain": 100970,
+            "positiveLoss": 101170,
+            "negativeLoss": 100970
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 151,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100880,
+            "value": "−775",
+            "percentage": "(−0.76%)",
+            "timestamp": "8/21/2020, 2:15:10 PM"
+        },
+        "currentOrder": {
+            "id": 74,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101060,
+            "value": "−595",
+            "percentage": "(−0.59%)",
+            "timestamp": "8/21/2020, 1:58:10 PM",
+            "action": "SELLING",
+            "positiveGain": 101160,
+            "negativeGain": 100960,
+            "positiveLoss": 101160,
+            "negativeLoss": 100960
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 151,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100880,
+            "value": "−775",
+            "percentage": "(−0.76%)",
+            "timestamp": "8/21/2020, 2:15:10 PM"
+        },
+        "currentOrder": {
+            "id": 75,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101030,
+            "value": "−625",
+            "percentage": "(−0.61%)",
+            "timestamp": "8/21/2020, 1:59:10 PM",
+            "action": "SELLING",
+            "positiveGain": 101130,
+            "negativeGain": 100930,
+            "positiveLoss": 101130,
+            "negativeLoss": 100930
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 151,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100880,
+            "value": "−775",
+            "percentage": "(−0.76%)",
+            "timestamp": "8/21/2020, 2:15:10 PM"
+        },
+        "currentOrder": {
+            "id": 76,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101010,
+            "value": "−645",
+            "percentage": "(−0.63%)",
+            "timestamp": "8/21/2020, 2:00:09 PM",
+            "action": "SELLING",
+            "positiveGain": 101110,
+            "negativeGain": 100910,
+            "positiveLoss": 101110,
+            "negativeLoss": 100910
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 151,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100880,
+            "value": "−775",
+            "percentage": "(−0.76%)",
+            "timestamp": "8/21/2020, 2:15:10 PM"
+        },
+        "currentOrder": {
+            "id": 77,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101010,
+            "value": "−645",
+            "percentage": "(−0.63%)",
+            "timestamp": "8/21/2020, 2:04:09 PM",
+            "action": "SELLING",
+            "positiveGain": 101110,
+            "negativeGain": 100910,
+            "positiveLoss": 101110,
+            "negativeLoss": 100910
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 151,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100880,
+            "value": "−775",
+            "percentage": "(−0.76%)",
+            "timestamp": "8/21/2020, 2:15:10 PM"
+        },
+        "currentOrder": {
+            "id": 78,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101020,
+            "value": "−635",
+            "percentage": "(−0.62%)",
+            "timestamp": "8/21/2020, 2:06:10 PM",
+            "action": "SELLING",
+            "positiveGain": 101120,
+            "negativeGain": 100920,
+            "positiveLoss": 101120,
+            "negativeLoss": 100920
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 151,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100880,
+            "value": "−775",
+            "percentage": "(−0.76%)",
+            "timestamp": "8/21/2020, 2:15:10 PM"
+        },
+        "currentOrder": {
+            "id": 79,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101085,
+            "value": "−570",
+            "percentage": "(−0.56%)",
+            "timestamp": "8/21/2020, 2:10:08 PM",
+            "action": "SELLING",
+            "positiveGain": 101185,
+            "negativeGain": 100985,
+            "positiveLoss": 101185,
+            "negativeLoss": 100985
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 151,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100880,
+            "value": "−775",
+            "percentage": "(−0.76%)",
+            "timestamp": "8/21/2020, 2:15:10 PM"
+        },
+        "currentOrder": {
+            "id": 80,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101070,
+            "value": "−585",
+            "percentage": "(−0.58%)",
+            "timestamp": "8/21/2020, 2:11:09 PM",
+            "action": "SELLING",
+            "positiveGain": 101170,
+            "negativeGain": 100970,
+            "positiveLoss": 101170,
+            "negativeLoss": 100970
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 151,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100880,
+            "value": "−775",
+            "percentage": "(−0.76%)",
+            "timestamp": "8/21/2020, 2:15:10 PM"
+        },
+        "currentOrder": {
+            "id": 81,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101060,
+            "value": "−595",
+            "percentage": "(−0.59%)",
+            "timestamp": "8/21/2020, 2:13:09 PM",
+            "action": "SELLING",
+            "positiveGain": 101160,
+            "negativeGain": 100960,
+            "positiveLoss": 101160,
+            "negativeLoss": 100960
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 151,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100880,
+            "value": "−775",
+            "percentage": "(−0.76%)",
+            "timestamp": "8/21/2020, 2:15:10 PM"
+        },
+        "currentOrder": {
+            "id": 82,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101040,
+            "value": "−615",
+            "percentage": "(−0.60%)",
+            "timestamp": "8/21/2020, 2:14:11 PM",
+            "action": "SELLING",
+            "positiveGain": 101140,
+            "negativeGain": 100940,
+            "positiveLoss": 101140,
+            "negativeLoss": 100940
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 156,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101005,
+            "value": "−650",
+            "percentage": "(−0.64%)",
+            "timestamp": "8/21/2020, 2:20:11 PM"
+        },
+        "currentOrder": {
+            "id": 83,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100880,
+            "value": "−775",
+            "percentage": "(−0.76%)",
+            "timestamp": "8/21/2020, 2:15:10 PM",
+            "action": "SELLING",
+            "positiveGain": 100980,
+            "negativeGain": 100780,
+            "positiveLoss": 100980,
+            "negativeLoss": 100780
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 156,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101005,
+            "value": "−650",
+            "percentage": "(−0.64%)",
+            "timestamp": "8/21/2020, 2:20:11 PM"
+        },
+        "currentOrder": {
+            "id": 84,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100905,
+            "value": "−750",
+            "percentage": "(−0.74%)",
+            "timestamp": "8/21/2020, 2:19:11 PM",
+            "action": "SELLING",
+            "positiveGain": 101005,
+            "negativeGain": 100805,
+            "positiveLoss": 101005,
+            "negativeLoss": 100805
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 181,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100680,
+            "value": "−975",
+            "percentage": "(−0.96%)",
+            "timestamp": "8/21/2020, 2:46:14 PM"
+        },
+        "currentOrder": {
+            "id": 85,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100955,
+            "value": "−700",
+            "percentage": "(−0.69%)",
+            "timestamp": "8/21/2020, 2:21:15 PM",
+            "action": "SELLING",
+            "positiveGain": 101055,
+            "negativeGain": 100855,
+            "positiveLoss": 101055,
+            "negativeLoss": 100855
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 181,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100680,
+            "value": "−975",
+            "percentage": "(−0.96%)",
+            "timestamp": "8/21/2020, 2:46:14 PM"
+        },
+        "currentOrder": {
+            "id": 86,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100935,
+            "value": "−720",
+            "percentage": "(−0.71%)",
+            "timestamp": "8/21/2020, 2:22:11 PM",
+            "action": "SELLING",
+            "positiveGain": 101035,
+            "negativeGain": 100835,
+            "positiveLoss": 101035,
+            "negativeLoss": 100835
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 181,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100680,
+            "value": "−975",
+            "percentage": "(−0.96%)",
+            "timestamp": "8/21/2020, 2:46:14 PM"
+        },
+        "currentOrder": {
+            "id": 87,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100950,
+            "value": "−705",
+            "percentage": "(−0.69%)",
+            "timestamp": "8/21/2020, 2:24:13 PM",
+            "action": "SELLING",
+            "positiveGain": 101050,
+            "negativeGain": 100850,
+            "positiveLoss": 101050,
+            "negativeLoss": 100850
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 181,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100680,
+            "value": "−975",
+            "percentage": "(−0.96%)",
+            "timestamp": "8/21/2020, 2:46:14 PM"
+        },
+        "currentOrder": {
+            "id": 88,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100935,
+            "value": "−720",
+            "percentage": "(−0.71%)",
+            "timestamp": "8/21/2020, 2:25:15 PM",
+            "action": "SELLING",
+            "positiveGain": 101035,
+            "negativeGain": 100835,
+            "positiveLoss": 101035,
+            "negativeLoss": 100835
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 165,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101025,
+            "value": "−630",
+            "percentage": "(−0.62%)",
+            "timestamp": "8/21/2020, 2:29:14 PM"
+        },
+        "currentOrder": {
+            "id": 89,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100910,
+            "value": "−745",
+            "percentage": "(−0.73%)",
+            "timestamp": "8/21/2020, 2:26:16 PM",
+            "action": "SELLING",
+            "positiveGain": 101010,
+            "negativeGain": 100810,
+            "positiveLoss": 101010,
+            "negativeLoss": 100810
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 177,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100885,
+            "value": "−770",
+            "percentage": "(−0.76%)",
+            "timestamp": "8/21/2020, 2:41:09 PM"
+        },
+        "currentOrder": {
+            "id": 90,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101010,
+            "value": "−645",
+            "percentage": "(−0.63%)",
+            "timestamp": "8/21/2020, 2:30:12 PM",
+            "action": "SELLING",
+            "positiveGain": 101110,
+            "negativeGain": 100910,
+            "positiveLoss": 101110,
+            "negativeLoss": 100910
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 177,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100885,
+            "value": "−770",
+            "percentage": "(−0.76%)",
+            "timestamp": "8/21/2020, 2:41:09 PM"
+        },
+        "currentOrder": {
+            "id": 91,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100990,
+            "value": "−665",
+            "percentage": "(−0.65%)",
+            "timestamp": "8/21/2020, 2:32:10 PM",
+            "action": "SELLING",
+            "positiveGain": 101090,
+            "negativeGain": 100890,
+            "positiveLoss": 101090,
+            "negativeLoss": 100890
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 180,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100870,
+            "value": "−785",
+            "percentage": "(−0.77%)",
+            "timestamp": "8/21/2020, 2:45:14 PM"
+        },
+        "currentOrder": {
+            "id": 92,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100980,
+            "value": "−675",
+            "percentage": "(−0.66%)",
+            "timestamp": "8/21/2020, 2:34:14 PM",
+            "action": "SELLING",
+            "positiveGain": 101080,
+            "negativeGain": 100880,
+            "positiveLoss": 101080,
+            "negativeLoss": 100880
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 177,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100885,
+            "value": "−770",
+            "percentage": "(−0.76%)",
+            "timestamp": "8/21/2020, 2:41:09 PM"
+        },
+        "currentOrder": {
+            "id": 93,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101000,
+            "value": "−655",
+            "percentage": "(−0.64%)",
+            "timestamp": "8/21/2020, 2:39:12 PM",
+            "action": "SELLING",
+            "positiveGain": 101100,
+            "negativeGain": 100900,
+            "positiveLoss": 101100,
+            "negativeLoss": 100900
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 181,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100680,
+            "value": "−975",
+            "percentage": "(−0.96%)",
+            "timestamp": "8/21/2020, 2:46:14 PM"
+        },
+        "currentOrder": {
+            "id": 94,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100945,
+            "value": "−710",
+            "percentage": "(−0.70%)",
+            "timestamp": "8/21/2020, 2:40:11 PM",
+            "action": "SELLING",
+            "positiveGain": 101045,
+            "negativeGain": 100845,
+            "positiveLoss": 101045,
+            "negativeLoss": 100845
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 181,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100680,
+            "value": "−975",
+            "percentage": "(−0.96%)",
+            "timestamp": "8/21/2020, 2:46:14 PM"
+        },
+        "currentOrder": {
+            "id": 95,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100885,
+            "value": "−770",
+            "percentage": "(−0.76%)",
+            "timestamp": "8/21/2020, 2:41:09 PM",
+            "action": "SELLING",
+            "positiveGain": 100985,
+            "negativeGain": 100785,
+            "positiveLoss": 100985,
+            "negativeLoss": 100785
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 181,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100680,
+            "value": "−975",
+            "percentage": "(−0.96%)",
+            "timestamp": "8/21/2020, 2:46:14 PM"
+        },
+        "currentOrder": {
+            "id": 96,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100890,
+            "value": "−765",
+            "percentage": "(−0.75%)",
+            "timestamp": "8/21/2020, 2:44:17 PM",
+            "action": "SELLING",
+            "positiveGain": 100990,
+            "negativeGain": 100790,
+            "positiveLoss": 100990,
+            "negativeLoss": 100790
+        }
+    },
+    {
+        "situation": "GAIN",
+        "currentData": {
+            "id": 181,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100680,
+            "value": "−975",
+            "percentage": "(−0.96%)",
+            "timestamp": "8/21/2020, 2:46:14 PM"
+        },
+        "currentOrder": {
+            "id": 97,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100870,
+            "value": "−785",
+            "percentage": "(−0.77%)",
+            "timestamp": "8/21/2020, 2:45:14 PM",
+            "action": "SELLING",
+            "positiveGain": 100970,
+            "negativeGain": 100770,
+            "positiveLoss": 100970,
+            "negativeLoss": 100770
+        }
+    },
+    {
+        "situation": "LOSS",
+        "currentData": {
+            "id": 182,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 101670,
+            "value": "+15",
+            "percentage": "(+0.01%)",
+            "timestamp": "8/21/2020, 6:51:21 PM"
+        },
+        "currentOrder": {
+            "id": 98,
+            "symbol": "BMFBOVESPA-WINV2020",
+            "currentPrice": 100680,
+            "value": "−975",
+            "percentage": "(−0.96%)",
+            "timestamp": "8/21/2020, 2:46:14 PM",
+            "action": "SELLING",
+            "positiveGain": 100780,
+            "negativeGain": 100580,
+            "positiveLoss": 100780,
+            "negativeLoss": 100580
+        }
+    }
+]

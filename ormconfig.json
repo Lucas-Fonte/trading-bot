@@ -1,0 +1,9 @@
+{
+    "type": "sqlite",
+    "database": "data/trading-bot.db",
+    "logging": false,
+    "synchronize": true,
+    "entities": [
+       "src/database/entities/**/*.ts"
+    ]
+ }
