@@ -1,19 +1,21 @@
 import json
+import sys
+import getopt
+import json
 from datetime import datetime
-
+import argparse
 import MetaTrader5 as mt5
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--symbol', help='symbol to be executed')
+arguments = parser.parse_args()
 
 
 def connectoToMT5 (): 
     mt5Connection = mt5.initialize()
 
     if not mt5Connection:
-        # print('Initialized failed!')
         mt5.shutdown()
-
-    # print(mt5.terminal_info())
-    # print(mt5.version())
-    # print('\nConnected')
 
 def convertTimeStampToDate(unixTimestamp):
     return datetime.utcfromtimestamp(unixTimestamp).strftime('%Y-%m-%dT%H:%M:%SZ')
@@ -26,7 +28,6 @@ def getSymbolData(symbol):
         quit()
     
 
-    # print("Show symbol info: (" + symbol + ")")
     symbolInfoDictionarie = mt5.symbol_info_tick(symbol)._asdict()
 
     symbolInfoDictionarie['time'] = convertTimeStampToDate(symbolInfoDictionarie['time'])
@@ -37,5 +38,5 @@ def getSymbolData(symbol):
     mt5.shutdown()
 
 connectoToMT5()
-getSymbolData('WINV20')
-# getSymbolData('EURUSD')
+getSymbolData(arguments.symbol)
+

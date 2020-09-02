@@ -1,5 +1,12 @@
+import sys
+import getopt
 import json
 from datetime import datetime
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--symbol', help='symbol to be executed')
+arguments = parser.parse_args()
 
 def getSymbolData(symbol):
 
@@ -17,5 +24,5 @@ def getSymbolData(symbol):
 
     data = json.dumps(symbolInfoDictionarie, indent=4, sort_keys=True) 
     print('\n' + data + '\n')
-    
-getSymbolData('WINV20')
+  
+getSymbolData(arguments.symbol)

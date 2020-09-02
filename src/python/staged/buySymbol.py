@@ -1,5 +1,8 @@
+import sys
 import json
 from datetime import datetime
+
+selectedSymbol = str(sys.argv)
 
 def buySymbol(symbol):
 
@@ -13,4 +16,4 @@ def buySymbol(symbol):
     data = json.dumps(marketAction, indent=4, sort_keys=True) 
     print('\n' + data + '\n')
     
-buySymbol('WINV20')
+buySymbol(selectedSymbol)
