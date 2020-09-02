@@ -1,24 +1,37 @@
-import {
-  Column, Entity, PrimaryGeneratedColumn,
-} from 'typeorm';
+import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()
 export abstract class MarketData {
-    @PrimaryGeneratedColumn()
-    id: number;
+  @PrimaryGeneratedColumn()
+  id: number;
 
-    @Column()
-    symbol: string;
+  @Column()
+  symbol: string;
 
-    @Column()
-    currentPrice: number;
+  @Column()
+  ask: number;
 
-    @Column()
-    value: string;
+  @Column()
+  bid: number;
 
-    @Column()
-    percentage: string;
+  @Column()
+  flags: number;
 
-    @Column()
-    timestamp: string;
+  @Column()
+  last: number;
+
+  @Column()
+  time: string;
+
+  @Column()
+  time_msc: number;
+
+  @Column()
+  volume: number;
+
+  @Column()
+  volume_real: number;
+
+  @Column()
+  timestamp: string;
 }

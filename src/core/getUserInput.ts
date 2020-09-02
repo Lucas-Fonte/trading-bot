@@ -2,14 +2,16 @@ import readlineSync from 'readline-sync';
 import { logger } from '../tools/logger';
 
 interface IUserInput {
-    symbol: string
+  symbol: string;
 }
 
-const DEFAULT_SYMBOL = 'EURUSD';
+const DEFAULT_SYMBOL = 'WINV20';
 
 const getUserInput = () => {
   const userInput: IUserInput = {
-    symbol: readlineSync.question('Which symbol do you want to look after? \n') || DEFAULT_SYMBOL,
+    symbol:
+      readlineSync.question('Which symbol do you want to look after? \n') ||
+      DEFAULT_SYMBOL,
   };
 
   logger.yellowHighlight(userInput.symbol);

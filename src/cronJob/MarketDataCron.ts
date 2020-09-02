@@ -1,8 +1,7 @@
 import cron from 'node-cron';
-import { getMarketData } from '../python/getMarketData';
+import { getMarketData } from '../core/getMarketData';
 import { getUserInput } from '../core/getUserInput';
 import { logger } from '../tools/logger';
-// eslint-disable-next-line no-unused-vars
 import { MarketLog, marketWatcher } from '../watchers/marketWatcher';
 
 const JOB_RATE = process.env.MARKET_DATA_JOB_RATE || 10;
@@ -13,9 +12,12 @@ const MarketDataCron = {
   start: async () => {
     let counter = 0;
 
-    logger.whiteTextWithYellowHighlight('Job is running every ', `${JOB_RATE} seconds\n`);
+    logger.whiteTextWithYellowHighlight(
+      'Job is running every ',
+      `${JOB_RATE} seconds\n`
+    );
     const userInput = getUserInput();
-    const marketLogs: (MarketLog)[] = [];
+    const marketLogs: MarketLog[] = [];
 
     cron.schedule(CRON_SCHEDULE_CONFIGURATION, async () => {
       const marketData = await getMarketData(userInput.symbol);

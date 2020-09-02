@@ -1,18 +1,14 @@
-/* eslint-disable max-len */
-/* eslint-disable no-use-before-define */
 import { getManager } from 'typeorm';
 import { MarketOrder } from '../../database/entities/MarketOrder';
 import { logger } from '../../tools/logger';
-// eslint-disable-next-line no-unused-vars
 import { MarketLog } from '../marketWatcher';
-// eslint-disable-next-line no-unused-vars
 import { MarketStrategy } from '../../database/entities/MarketStragety';
 
 interface IMarketActionResolverState {
   firstLog?: MarketLog;
   secondLog?: MarketLog;
   currentMarketData?: MarketLog;
-  marketLogs?: Array<MarketLog>
+  marketLogs?: Array<MarketLog>;
 }
 
 const marketStrategy: MarketStrategy = {
@@ -24,7 +20,10 @@ const marketStrategy: MarketStrategy = {
 
 const marketActionResolverState: IMarketActionResolverState = {};
 
-const marketActionResolver = (currentMarketData: MarketLog, marketLogs: Array<MarketLog>) => {
+const marketActionResolver = (
+  currentMarketData: MarketLog,
+  marketLogs: Array<MarketLog>
+) => {
   if (marketLogs.length <= 2) {
     return;
   }
@@ -36,8 +35,9 @@ const marketActionResolver = (currentMarketData: MarketLog, marketLogs: Array<Ma
   marketActionResolverState.firstLog = firstLog;
   marketActionResolverState.secondLog = secondLog;
 
-  checkForGreenCandles();
-  checkForRedCandles();
+  console.log({ marketActionResolver });
+  // checkForGreenCandles();
+  // checkForRedCandles();
 };
 
 const checkForGreenCandles = () => {
@@ -52,7 +52,10 @@ const checkForGreenCandles = () => {
     return;
   }
 
-  logger.whiteTextWithYellowHighlight(`Because of ${firstLogPrice} , ${secondLogPrice}, ${currentPrice} `, 'NOT SELLING');
+  logger.whiteTextWithYellowHighlight(
+    `Because of ${firstLogPrice} , ${secondLogPrice}, ${currentPrice} `,
+    'NOT SELLING'
+  );
 };
 
 const checkForRedCandles = () => {
@@ -67,7 +70,10 @@ const checkForRedCandles = () => {
     return;
   }
 
-  logger.whiteTextWithYellowHighlight(`Because of ${firstLogPrice} , ${secondLogPrice}, ${currentPrice} `, 'NOT BUYING');
+  logger.whiteTextWithYellowHighlight(
+    `Because of ${firstLogPrice} , ${secondLogPrice}, ${currentPrice} `,
+    'NOT BUYING'
+  );
 };
 
 const takeAction = (action: string) => {
@@ -77,11 +83,22 @@ const takeAction = (action: string) => {
     ...marketActionResolverState.currentMarketData,
     currentPrice: Number(currentPrice),
     action,
-    positiveGain: Number(currentPrice) + (Number(process.env.MARKET_ACTION_BASE_POINTS) * marketStrategy.positveFactor),
-    negativeGain: Number(currentPrice) - (Number(process.env.MARKET_ACTION_BASE_POINTS) * marketStrategy.negativeFactor),
-    positiveLoss: Number(currentPrice) + (Number(process.env.MARKET_ACTION_BASE_POINTS) * marketStrategy.positveFactor),
-    negativeLoss: Number(currentPrice) - (Number(process.env.MARKET_ACTION_BASE_POINTS) * marketStrategy.negativeFactor),
-
+    positiveGain:
+      Number(currentPrice) +
+      Number(process.env.MARKET_ACTION_BASE_POINTS) *
+        marketStrategy.positveFactor,
+    negativeGain:
+      Number(currentPrice) -
+      Number(process.env.MARKET_ACTION_BASE_POINTS) *
+        marketStrategy.negativeFactor,
+    positiveLoss:
+      Number(currentPrice) +
+      Number(process.env.MARKET_ACTION_BASE_POINTS) *
+        marketStrategy.positveFactor,
+    negativeLoss:
+      Number(currentPrice) -
+      Number(process.env.MARKET_ACTION_BASE_POINTS) *
+        marketStrategy.negativeFactor,
   });
 
   entityManager.save(marketOrderRegistry);
