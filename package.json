@@ -8,7 +8,7 @@
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "serve": "ts-node src/server.ts",
     "results": "ts-node src/scripts/generateFiles.ts",
-    "run python": "python src/scripts/test.py"
+    "python": "ts-node src/python/getMarketData.ts"
   },
   "dependencies": {
     "@types/express": "^4.17.7",

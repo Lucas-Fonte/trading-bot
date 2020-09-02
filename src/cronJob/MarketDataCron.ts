@@ -1,5 +1,5 @@
 import cron from 'node-cron';
-import { getMarketData } from '../core/getMarketData';
+import { getMarketData } from '../python/getMarketData';
 import { getUserInput } from '../core/getUserInput';
 import { logger } from '../tools/logger';
 // eslint-disable-next-line no-unused-vars
