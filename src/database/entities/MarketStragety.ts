@@ -1,18 +1,16 @@
-import {
-  Column, Entity, PrimaryGeneratedColumn,
-} from 'typeorm';
+import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
-  @Entity()
+@Entity()
 export class MarketStrategy {
-      @PrimaryGeneratedColumn()
-      id: number;
+  @PrimaryGeneratedColumn()
+  id: number;
 
-      @Column()
-      strategy: string;
+  @Column()
+  strategy: string;
 
-      @Column({ type: 'float' })
-      positveFactor: number;
+  @Column({ type: 'float' })
+  positveFactor: number;
 
-      @Column({ type: 'float' })
-      negativeFactor: number;
+  @Column({ type: 'float' })
+  negativeFactor: number;
 }

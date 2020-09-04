@@ -1,12 +1,14 @@
 import cron from 'node-cron';
 import { getMarketData } from '../core/getMarketData';
 import { getUserInput } from '../core/getUserInput';
+import { MarketWatcherRepository } from '../database/repositories/MarketWatcherRepository';
+import { cronExpression } from '../tools/cronExpression';
 import { logger } from '../tools/logger';
 import { MarketLog, marketWatcher } from '../watchers/marketWatcher';
+import { orderWatcher } from '../watchers/orderWatcher';
 
-const JOB_RATE = process.env.MARKET_DATA_JOB_RATE || 10;
-
-const CRON_SCHEDULE_CONFIGURATION = ` */${JOB_RATE} * * * * *`;
+let dynamicRate = 0;
+const JOB_RATE = dynamicRate ? dynamicRate : process.env.MARKET_DATA_JOB_RATE;
 
 const MarketDataCron = {
   start: async () => {
@@ -18,11 +20,23 @@ const MarketDataCron = {
     );
     const userInput = getUserInput();
     const marketLogs: MarketLog[] = [];
+    const watchers = await MarketWatcherRepository.findAll();
 
-    cron.schedule(CRON_SCHEDULE_CONFIGURATION, async () => {
-      const marketData = await getMarketData(userInput.symbol);
+    console.log({ watchers });
 
-      marketLogs.push(await marketWatcher(marketData, marketLogs));
+    cron.schedule(cronExpression.resolve(JOB_RATE), async () => {
+      const marketData = await getMarketData(userInput.symbol, counter);
+
+      const { currentMarketData, actionTaken } = await marketWatcher(
+        marketData,
+        marketLogs
+      );
+
+      if (actionTaken) {
+        orderWatcher(marketData);
+      }
+
+      marketLogs.push(currentMarketData);
 
       if (marketLogs.length >= 4) marketLogs.shift();
 
@@ -33,4 +47,3 @@ const MarketDataCron = {
 };
 
 export { MarketDataCron };
-

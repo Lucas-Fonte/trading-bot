@@ -1,5 +1,17 @@
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
+export interface IMarketData {
+  ask: number;
+  bid: number;
+  flags: number;
+  last: number;
+  symbol: string;
+  time: string;
+  time_msc: number;
+  volume: number;
+  volume_real: number;
+}
+
 @Entity()
 export abstract class MarketData {
   @PrimaryGeneratedColumn()

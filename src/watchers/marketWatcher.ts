@@ -1,19 +1,6 @@
-/* eslint-disable camelcase */
 import { getManager } from 'typeorm';
-import { MarketData } from '../database/entities/MarketData';
+import { IMarketData, MarketData } from '../database/entities/MarketData';
 import { marketActionResolver } from './resolvers/marketActionResolver';
-
-export interface IMarketData {
-  ask: number;
-  bid: number;
-  flags: number;
-  last: number;
-  symbol: string;
-  time: string;
-  time_msc: number;
-  volume: number;
-  volume_real: number;
-}
 
 export interface MarketLog extends IMarketData {
   timestamp: string;
@@ -38,12 +25,11 @@ const marketWatcher = async (
 
   entityManager.save(marketDataRegistry);
 
-  marketActionResolver(currentMarketData, marketLogs);
+  const actionTaken = marketActionResolver(currentMarketData, marketLogs);
 
   console.log(currentMarketData);
 
-  return currentMarketData;
+  return { currentMarketData, actionTaken };
 };
 
 export { marketWatcher };
-

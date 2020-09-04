@@ -1,4 +1,7 @@
+import { getManager } from 'typeorm';
+import { MarketOrder } from '../../database/entities/MarketOrder';
 import { MarketStrategy } from '../../database/entities/MarketStragety';
+import { logger } from '../../tools/logger';
 import { MarketLog } from '../marketWatcher';
 
 interface IMarketActionResolverState {
@@ -6,12 +9,13 @@ interface IMarketActionResolverState {
   secondLog?: MarketLog;
   currentMarketData?: MarketLog;
   marketLogs?: Array<MarketLog>;
+  actionTaken?: boolean;
 }
 
 const marketStrategy: MarketStrategy = {
   id: 1,
   strategy: 'DEFAULT',
-  positveFactor: 1,
+  positveFactor: 2.5,
   negativeFactor: 1,
 };
 
@@ -32,75 +36,76 @@ const marketActionResolver = (
   marketActionResolverState.firstLog = firstLog;
   marketActionResolverState.secondLog = secondLog;
 
-  console.log({ marketActionResolver });
-  // checkForGreenCandles();
-  // checkForRedCandles();
+  checkForGreenCandles();
+  checkForRedCandles();
+
+  return marketActionResolverState.actionTaken || false;
 };
 
-// const checkForGreenCandles = () => {
-//   const {
-//     firstLog: { currentPrice: firstLogPrice },
-//     secondLog: { currentPrice: secondLogPrice },
-//     currentMarketData: { currentPrice },
-//   } = marketActionResolverState;
+const checkForGreenCandles = () => {
+  const {
+    firstLog: { last: firstLogValue },
+    secondLog: { last: secondLogValue },
+    currentMarketData: { last },
+  } = marketActionResolverState;
 
-//   if (firstLogPrice > currentPrice && secondLogPrice > currentPrice) {
-//     takeAction('SELLING');
-//     return;
-//   }
+  if (firstLogValue > last && secondLogValue > last) {
+    takeAction('SELLING');
+    return;
+  }
 
-//   logger.whiteTextWithYellowHighlight(
-//     `Because of ${firstLogPrice} , ${secondLogPrice}, ${currentPrice} `,
-//     'NOT SELLING'
-//   );
-// };
+  logger.whiteTextWithYellowHighlight(
+    `Because of ${firstLogValue} , ${secondLogValue}, ${last} `,
+    'NOT SELLING'
+  );
+};
 
-// const checkForRedCandles = () => {
-//   const {
-//     firstLog: { currentPrice: firstLogPrice },
-//     secondLog: { currentPrice: secondLogPrice },
-//     currentMarketData: { currentPrice },
-//   } = marketActionResolverState;
+const checkForRedCandles = () => {
+  const {
+    firstLog: { last: firstLogValue },
+    secondLog: { last: secondLogValue },
+    currentMarketData: { last },
+  } = marketActionResolverState;
 
-//   if (firstLogPrice < currentPrice && secondLogPrice < currentPrice) {
-//     takeAction('BUYING');
-//     return;
-//   }
+  if (firstLogValue < last && secondLogValue < last) {
+    takeAction('BUYING');
+    return;
+  }
 
-//   logger.whiteTextWithYellowHighlight(
-//     `Because of ${firstLogPrice} , ${secondLogPrice}, ${currentPrice} `,
-//     'NOT BUYING'
-//   );
-// };
+  logger.whiteTextWithYellowHighlight(
+    `Because of ${firstLogValue} , ${secondLogValue}, ${last} `,
+    'NOT BUYING'
+  );
+};
 
-// const takeAction = (action: string) => {
-//   const entityManager = getManager();
-//   const { currentPrice } = marketActionResolverState.currentMarketData;
-//   const marketOrderRegistry = entityManager.create(MarketOrder, {
-//     ...marketActionResolverState.currentMarketData,
-//     currentPrice: Number(currentPrice),
-//     action,
-//     positiveGain:
-//       Number(currentPrice) +
-//       Number(process.env.MARKET_ACTION_BASE_POINTS) *
-//         marketStrategy.positveFactor,
-//     negativeGain:
-//       Number(currentPrice) -
-//       Number(process.env.MARKET_ACTION_BASE_POINTS) *
-//         marketStrategy.negativeFactor,
-//     positiveLoss:
-//       Number(currentPrice) +
-//       Number(process.env.MARKET_ACTION_BASE_POINTS) *
-//         marketStrategy.positveFactor,
-//     negativeLoss:
-//       Number(currentPrice) -
-//       Number(process.env.MARKET_ACTION_BASE_POINTS) *
-//         marketStrategy.negativeFactor,
-//   });
+const takeAction = (action: string) => {
+  const entityManager = getManager();
+  const { last } = marketActionResolverState.currentMarketData;
+  const marketOrderRegistry = entityManager.create(MarketOrder, {
+    ...marketActionResolverState.currentMarketData,
+    last: Number(last),
+    action,
+    positiveGain:
+      Number(last) +
+      Number(process.env.MARKET_ACTION_BASE_POINTS) *
+        marketStrategy.positveFactor,
+    negativeGain:
+      Number(last) -
+      Number(process.env.MARKET_ACTION_BASE_POINTS) *
+        marketStrategy.negativeFactor,
+    positiveLoss:
+      Number(last) +
+      Number(process.env.MARKET_ACTION_BASE_POINTS) *
+        marketStrategy.positveFactor,
+    negativeLoss:
+      Number(last) -
+      Number(process.env.MARKET_ACTION_BASE_POINTS) *
+        marketStrategy.negativeFactor,
+  });
 
-//   entityManager.save(marketOrderRegistry);
-//   logger.whiteTextWithYellowHighlight('Action: ', action);
-// };
+  entityManager.save(marketOrderRegistry);
+  logger.whiteTextWithYellowHighlight('Action: ', action);
+  marketActionResolverState.actionTaken = true;
+};
 
 export { marketActionResolver };
-

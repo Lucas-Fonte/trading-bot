@@ -1,41 +1,25 @@
-import { spawn } from 'child_process';
-import { IMarketData } from '../watchers/marketWatcher';
+import { getManager } from 'typeorm';
+import { IMarketData, MarketData } from '../database/entities/MarketData';
+import { python } from '../tools/python';
 
 const MARKET_DATA_SOURCE = 'getMarketData';
-const ENVIRONMENT = process.env.ENVIRONMENTAL_ACTIONS || 'staged';
-const getMarketData = async (symbol: string): Promise<IMarketData> => {
-  const marketData: any = {};
 
-  console.log('Starting python trader...');
+const getMarketData = async (
+  symbol: string,
+  counter: number
+): Promise<IMarketData> => {
+  console.log('Starting trader...');
 
-  const path = `src/python/${ENVIRONMENT}/${MARKET_DATA_SOURCE}.py`;
+  const marketData = await python.run(MARKET_DATA_SOURCE, [
+    `--symbol=${symbol}`,
+  ]);
 
-  console.log({ path });
-
-  const pythonProgram = spawn('python', [path, `--symbol=${symbol}`]);
-
-  for await (const data of pythonProgram.stdout) {
-    Object.assign(marketData, JSON.parse(data.toString()));
-  }
+  // const entityManager = getManager();
+  // const marketData = await entityManager.findOne(MarketData, counter);
 
   console.log('Done getting data');
 
-  const currentMarketData: IMarketData = {
-    ask: marketData.ask,
-    bid: marketData.bid,
-    flags: marketData.flags,
-    last: marketData.last,
-    symbol,
-    time: marketData.time,
-    time_msc: marketData.time_msc,
-    volume: marketData.volume,
-    volume_real: marketData.volume_real,
-  }
-
-  return currentMarketData;
+  return { symbol, ...marketData };
 };
 
-// getMarketData('WINV20');
-
 export { getMarketData };
-
