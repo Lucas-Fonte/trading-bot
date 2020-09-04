@@ -1,14 +1,14 @@
 /* eslint-disable camelcase */
 import { getManager } from 'typeorm';
-import { marketActionResolver } from './resolvers/marketActionResolver';
 import { MarketData } from '../database/entities/MarketData';
+import { marketActionResolver } from './resolvers/marketActionResolver';
 
-interface IMarketData {
-  symbol: string;
+export interface IMarketData {
   ask: number;
   bid: number;
   flags: number;
   last: number;
+  symbol: string;
   time: string;
   time_msc: number;
   volume: number;
@@ -46,3 +46,4 @@ const marketWatcher = async (
 };
 
 export { marketWatcher };
+

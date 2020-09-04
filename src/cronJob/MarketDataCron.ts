@@ -21,6 +21,7 @@ const MarketDataCron = {
 
     cron.schedule(CRON_SCHEDULE_CONFIGURATION, async () => {
       const marketData = await getMarketData(userInput.symbol);
+
       marketLogs.push(await marketWatcher(marketData, marketLogs));
 
       if (marketLogs.length >= 4) marketLogs.shift();
@@ -32,3 +33,4 @@ const MarketDataCron = {
 };
 
 export { MarketDataCron };
+
