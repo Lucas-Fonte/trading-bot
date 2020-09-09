@@ -2,7 +2,7 @@
 
 This is a trading-bot that works alongside **MetaTrader5** , build with typescript and python.
 
-## Design Concept
+## Design Document
 
 ```mermaid
     graph TD
