@@ -4,7 +4,7 @@ This is a trading-bot that works alongside **MetaTrader5** , build with typescri
 
 ## Design Document
 
-<img src=" markdown/DESIGN_DOC.png" alt="design_doc"/>
+<img src="markdown/DESIGN_DOC.png" alt="design_doc"/>
 
 - **Application**: Bootstrap the application.
 
