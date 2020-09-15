@@ -9,7 +9,7 @@ export class MarketStrategy {
   strategy: string;
 
   @Column({ type: 'float' })
-  positveFactor: number;
+  positiveFactor: number;
 
   @Column({ type: 'float' })
   negativeFactor: number;

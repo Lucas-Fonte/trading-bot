@@ -1,6 +1,6 @@
 import { getManager } from 'typeorm';
 import { MarketOrder } from '../../database/entities/MarketOrder';
-import { MarketStrategy } from '../../database/entities/MarketStragety';
+import { MarketStrategy } from '../../database/entities/MarketStrategy';
 import { logger } from '../../tools/logger';
 import { MarketLog } from '../marketWatcher';
 
@@ -15,7 +15,7 @@ interface IMarketActionResolverState {
 const marketStrategy: MarketStrategy = {
   id: 1,
   strategy: 'DEFAULT',
-  positveFactor: 2.5,
+  positiveFactor: 2.5,
   negativeFactor: 1,
 };
 
@@ -88,7 +88,7 @@ const takeAction = (action: string) => {
     positiveGain:
       Number(last) +
       Number(process.env.MARKET_ACTION_BASE_POINTS) *
-        marketStrategy.positveFactor,
+        marketStrategy.positiveFactor,
     negativeGain:
       Number(last) -
       Number(process.env.MARKET_ACTION_BASE_POINTS) *
@@ -96,7 +96,7 @@ const takeAction = (action: string) => {
     positiveLoss:
       Number(last) +
       Number(process.env.MARKET_ACTION_BASE_POINTS) *
-        marketStrategy.positveFactor,
+        marketStrategy.positiveFactor,
     negativeLoss:
       Number(last) -
       Number(process.env.MARKET_ACTION_BASE_POINTS) *
