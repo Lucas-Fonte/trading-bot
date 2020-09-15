@@ -1,4 +1,28 @@
-# Trading bot
+<p align="center">  
+  <img src="https://cdn.iconscout.com/icon/free/png-512/bot-136-504893.png" alt="api-logo" width="80" />
+</p>
+<h1 align="center">
+    Trading bot
+</h1>
+<p align="center">
+This is a trading-bot that works alongside <b>MetaTrader5</b> , build with typescript and python.
+
+</p>
+
+<br />
+
+<p align="center">
+<img src="https://img.shields.io/badge/Code-Typescript-informational?style=flat&logo=typescript&logoColor=white&color=2bbc8a)" alt="image" />
+
+<img src="https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=2bbc8a)" alt="image" />
+
+<img src="https://img.shields.io/badge/Database-SQLite-informational?style=flat&logo=sqlite&logoColor=white&color=2bbc8a)" alt="image" />
+
+<img src="https://img.shields.io/badge/Platform-MetaTrader5-informational?style=flat&logoColor=white&color=2bbc8a)" alt="image" />
+
+</p>
+
+---
 
 This is a trading-bot that works alongside **MetaTrader5** , build with typescript and python.
 
