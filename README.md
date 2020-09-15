@@ -26,26 +26,6 @@ Right now the **trading-bot** is capable of reaching out to MT5, collect the sym
 
 ## Backlog
 
-<script>
-function toggleCheck(id) {
-    const span = document.getElementById(id);
-    const color =  span.style.color;
-
-    console.log({ color });
-    if (color === 'gray') {
-        span.style.textDecoration = 'none';
-        span.style.color = 'black';
-        return
-    }
-    span.style.textDecoration = 'line-through';
-    span.style.color = 'gray';
-}
-</script>
-
-- | To-do
-  ----- | -------------
-  <input type="checkbox" onclick="toggleCheck('span1')"/> | <span id="span1">Execute python scripts to actually **buy** and **sell** on MT5<span>
-  <input type="checkbox" onclick="toggleCheck('span2')"/> | <span id="span2">Add operation countdown, so if the bot is set to take up to 4 actions, it should end there</span>
-  <input type="checkbox" onclick="toggleCheck('span3')"/> | <span id="span3">Add different watchers so the normal watcher runs every **60 seconds** and the second one the `orderWatcher` runs every **5 seconds** if an order has been taken</span>
+Click [here](https://lucas-fonte.github.io/trading-bot/) for the full html documentation.
 
 ---
